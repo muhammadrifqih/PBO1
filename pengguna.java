@@ -1,9 +1,9 @@
-public class pengguna {
+public class Pengguna {
     private int id;
     private String username;
     private String password;
 
-    public pengguna() {
+    public Pengguna() {
         System.out.println("Object telah diciptakan, constructor berjalan");
     }
 
