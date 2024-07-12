@@ -3,6 +3,10 @@ public class pengguna {
     private String username;
     private String password;
 
+    public pengguna() {
+        System.out.println("Object telah diciptakan, constructor berjalan");
+    }
+
     public void login() {
         System.out.println("Ini Method untuk Login");
     }
