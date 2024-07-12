@@ -43,4 +43,20 @@ public class Pengguna {
         this.password = password;
     }
 
+    public void hapus() {
+        System.out.println("DELETE FROM pengguna");
+    }
+
+    public void hapus(int id) {
+        System.out.println("DELETE FROM pengguna WHARE id=" + id);
+    }
+
+    public void hapus(String username) {
+        System.out.println("DELETE FROM pengguna WHARE username=" + username);
+    }
+
+    public void login(String tokenGoogle) {
+        System.out.println("Ini Login menggunakan Google");
+    }
+    
 }

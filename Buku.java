@@ -4,6 +4,7 @@ public class Buku {
     private String penulis;
     private int jumlah_halama;
     private double harga;
+    public double naikanHarga;
 
     public Buku() {
         System.out.println("Object telah diciptakan, constructor berjalan");
@@ -47,5 +48,13 @@ public class Buku {
 
     public void setHarga(double harga) {
         this.harga = harga;
+    }
+
+    public double naikanHarga() {
+        return this.naikanHarga;
+    }
+
+    public void naikanHarga(double kenaikan) {
+        this.harga = this.harga + kenaikan;
     }
 }
